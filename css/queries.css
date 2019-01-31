@@ -1,0 +1,83 @@
+@media screen and (max-width:1024px){
+    /*---------------------------------------------
+                MAIN SECTION
+---------------------------------------------- */
+.main-section{
+    /* background:yellow; */
+    padding: 15%;
+}
+.products{
+    padding: 15% 15%;
+}
+.product{
+    
+    margin-top: -220px;
+  }
+
+  .benefits .container img{
+      width: 100%;
+    max-width:110px;
+  }
+}
+
+@media screen and (max-width:768px){
+    .opinions .opinion{
+        width: 48%;
+        margin: 1%;
+      }
+      .products{
+        padding: 20% 10%;
+    }
+      .product{
+        margin-top: -200px;
+      }
+}
+
+@media screen and (max-width:600px){
+    .products{
+        padding: 10%;
+        display: inherit;
+        max-height: none;
+        /* height: auto; */
+    }
+    .product{
+        margin-top: auto;
+      }
+
+      .main-section{
+        /* background:yellow; */
+        padding: 5%;
+    }
+    .benefits .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .benefits .benefit{
+        width: auto;
+        padding: 20px 10px;
+        
+    }
+    .benefits h3{
+        margin-top:5px;
+    }
+
+    /* ---------------------- pagina de exito */
+    .success-page .container .content{
+        padding:  0 50px;
+      }
+      .success-page .logo img{
+        margin-bottom:50px;
+      }
+      .success-page .icon-success img{
+          max-width: 70px;
+      }
+      
+}
+
+
+@media screen and (max-width:425px){
+    .opinions .opinion{
+        width: auto;
+        margin: 20px 0;        
+      }
+}
